@@ -35,7 +35,7 @@ The following restrictions apply when using this module:
   
 -   The [Compute Linear Correlation](compute-linear-correlation.md) module can process only numeric values. All other types of values, including missing values, non-numeric values, and categorical values, are treated as NaNs.      
 
--   Pearson’s correlation is calculated for all numeric columns in the dataset that are passed as input. Be sure to exclude any columns that are in appropriate for this analysis.
+-   Pearson’s correlation is calculated for all numeric columns in the dataset that are passed as input. Be sure to exclude any columns that are inappropriate for this analysis.
 
 - [Compute Linear Correlation](compute-linear-correlation.md) cannot be used with data that has missing values.  
 
